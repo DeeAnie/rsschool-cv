@@ -4,7 +4,7 @@
 - **GitHub:** @DeeAnie
 - **Discord:** Janjan
 - **E-mail:** janjan27.dj@gmail.com
-- 
+
 ### About me
 I started to study Front-end development in 2021. And I really liked it. I am currently taking the Stage #0 course in **RS School**. 
 

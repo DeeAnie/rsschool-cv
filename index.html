@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diana Rustom</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                    <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+                    <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                    <li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>
+                    <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+                    <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                    <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                    <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="profile"> <img class="avatar" src="dianacv.jpg" alt="my photo">
+            <div class="section-title profile-section-title">
+                <h1 class="profile-title">Diana Rustom</h1>
+            </div>
+        </section>
+        <div class="main main-container">
+            <section class="section contacts" id="contacts">
+                <h2 class="section-title">Contacts</h2>
+                <ul>
+                    <li><a class="link" href="https://github.com/Deeanie">GitHub</a></li>
+                    <li><a class="link" href="https://codepen.io/Diana-Zhusupbekova">Codepen</a></li>
+                    <li><a class="link" href="Janjan#7919 ">Discord</a></li>
+                    <li><a class="link" href="janjan27.dj@gmail.com">E-mail</a></li>
+                </ul>
+            </section>
+            <section class="section" id="summary">
+                <h2 class="section-title">Summary</h2>
+                <p>I started to study Front-end development in 2021. And I really liked it. I am currently taking the
+                    Stage #0 course in RS School.</p>
+                <p>I am very responsible, I work well in a team. I want to develop new skills even further, including
+                    soft skills and hard skills, and become a good programmer.</p>
+            </section>
+            <section class="section" id="skills">
+                <h2 class="section-title">Skills</h2>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS/SASS/Bootstrap</li>
+                    <li>Git/GitHub</li>
+                    <li>JavaScript Basics</li>
+                    <li>VS Code</li>
+                    <li>UX/UI, Figma, Adobe Photoshop</li>
+                </ul>
+            </section>
+            <section class="section" id="courses">
+                <h2 class="section-title">Courses</h2>
+                <ul>
+                    <li>FCC <a class="link" href="https://freecodecamp.org/certification/janjanka/responsive-web-design">- Responsive
+                            Web Design</a></li>
+                    <li>SoloLearn <a class="link" href="https://www.sololearn.com/Certificate/1014-20437068/pdf/">-
+                            HTML</a></li>
+                    <li>SoloLearn <a class="link" href="https://stepik.org/certificate/68245088d3b30995cf498f83c37ce1865bd49b1a.pdf">- CSS</a>
+                    </li>
+                    <li>SoloLearn <a class="link" href="https://www.sololearn.com/Certificate/1162-20437068/pdf/">-
+                            Responsive Web
+                            Design</a></li>
+                    <li>Stepik <a class="link" href="https://stepik.org/certificate/68245088d3b30995cf498f83c37ce1865bd49b1a.pdf">-
+                            HTML and CSS</a></li>
+                    <li>LinkedIn <a class="link" href="https://www.linkedin.com/learning/certificates/350b37966bef2c019cb0ff2499c2bac0c13b79b8c28d6424ee418e9c0c0de1a4?trk=share_certificate">-
+                            HTML Essential Training</a></li>
+                </ul>
+            </section>
+            <section class="section" id="code">
+                <h2 class="section-title">Code</h2>
+                <pre class="code">
+const makeServerRequest = new Promise((resolve, reject) => {
+    let responseFromServer = false;
+                                          
+    if (responseFromServer) {
+      resolve("We got the data");
+    } else {
+      reject("Data not received");
+    }
+});
+                                          
+makeServerRequest.then(result => {
+    console.log(result);
+});
+                                          
+makeServerRequest.catch(error => {
+    console.log(error);
+});             </pre>
+            </section>
+            <section class="section" id="projects">
+                <h2 class="section-title">Projects</h2>
+                <a class="projects-link link" href="https://codepen.io/Diana-Zhusupbekova/full/dyvBJMB" target="_blank">Technical Documentation Page
+                    <img class="projects-img" src="./assets/content/technical.png" alt="Technical-img">
+                </a>
+                <a class="projects-link link" href="https://codepen.io/Diana-Zhusupbekova/pen/gOmNKrG" target="_blank">Business
+                    <img class="projects-img" src="./assets/content/business.png" alt="Business-img">
+                </a>
+                <a class="projects-link link" href="https://codepen.io/Diana-Zhusupbekova/pen/bGqPMzY" target="_blank">MyFolio
+                    <img class="projects-img" src="./assets/content/myfolio.png" alt="MyFolio-img">
+                </a>
+            </section>
+            <section class="section" id="education">
+                <h2 class="section-title">Education</h2>
+                <ul>
+                    <li>Bishkek State University</li>
+                    <li>Xiangtan University</li>
+                    <li>Jyldyz Academy</li>
+                </ul>
+            </section>
+            <section class="section" id="languages">
+                <h2 class="section-title">Languages</h2>
+                <ul>
+                    <li>Kyrgyz - Native</li>
+                    <li>Russian - Fluent</li>
+                    <li>English - Upper-Intermediate</li>
+                    <li>Chinese - Pre-advanced</li>
+                </ul>
+            </section>
+        </div>
+    </main>
+    <footer class="footer">
+        <a class="my-github" href="https://github.com/Deeanie">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" alt="Github-icon" width="50"></a>
+        <p> &copy; Diana Rustom 2022</p>
+        <a href="https://rs.school/js/">
+            <img src="https://rs.school/images/rs_school_js.svg" alt="RS-School Icon" width="80">
+        </a>
+    </footer>
+</body>
+
+</html>
